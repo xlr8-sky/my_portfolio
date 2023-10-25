@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #e7e6e7;
+}
+
+body {
+  background-color: #100e17;
+}
+
+div>span>svg>circle {
+  color: #0cbba0 !important;
+}
+
+div>div>div {
+  color: white !important;
+}
+
+div>span:nth-child(n + 1)>span {
+  background-color: #0cbba0;
+}
